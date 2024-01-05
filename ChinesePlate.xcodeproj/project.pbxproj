@@ -33,7 +33,6 @@
 		52463E162B39817B006B3C57 /* openmp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52463E132B39817B006B3C57 /* openmp.framework */; };
 		52463E172B39817B006B3C57 /* ncnn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52463E142B39817B006B3C57 /* ncnn.framework */; };
 		52A43E922B3EC78400318DD9 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52A43E912B3EC78400318DD9 /* 0.jpg */; };
-		52C8BDAB2B398C340061D8A9 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C8BDAA2B398C340061D8A9 /* opencv2.framework */; };
 		52C8BDB22B3996160061D8A9 /* AddSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C8BDB12B3996160061D8A9 /* AddSwift.swift */; };
 		D280DAAB74972E58BDF12826 /* libPods-ChinesePlate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE06C026C88252306C3F57C4 /* libPods-ChinesePlate.a */; };
 /* End PBXBuildFile section */
@@ -72,7 +71,6 @@
 		52463E132B39817B006B3C57 /* openmp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = openmp.framework; sourceTree = "<group>"; };
 		52463E142B39817B006B3C57 /* ncnn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ncnn.framework; sourceTree = "<group>"; };
 		52A43E912B3EC78400318DD9 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
-		52C8BDAA2B398C340061D8A9 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		52C8BDB02B3996160061D8A9 /* ChinesePlate-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChinesePlate-Bridging-Header.h"; sourceTree = "<group>"; };
 		52C8BDB12B3996160061D8A9 /* AddSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSwift.swift; sourceTree = "<group>"; };
 		66BAD4CEFABD6705C5100968 /* Pods-lpr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lpr.release.xcconfig"; path = "Pods/Target Support Files/Pods-lpr/Pods-lpr.release.xcconfig"; sourceTree = "<group>"; };
@@ -88,7 +86,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				34ECFE3A2182FAB700B162D4 /* CoreImage.framework in Frameworks */,
-				52C8BDAB2B398C340061D8A9 /* opencv2.framework in Frameworks */,
 				52463E152B39817B006B3C57 /* glslang.framework in Frameworks */,
 				34ECFE352182E56900B162D4 /* AVFoundation.framework in Frameworks */,
 				52463E172B39817B006B3C57 /* ncnn.framework in Frameworks */,
@@ -123,7 +120,6 @@
 			children = (
 				522E59ED2B452C6400394322 /* README.md */,
 				52C8BDAF2B398FEA0061D8A9 /* Others */,
-				52C8BDAA2B398C340061D8A9 /* opencv2.framework */,
 				52463E122B39817B006B3C57 /* glslang.framework */,
 				52463E132B39817B006B3C57 /* openmp.framework */,
 				52463E142B39817B006B3C57 /* ncnn.framework */,
