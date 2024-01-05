@@ -1,5 +1,5 @@
 //
-//  RootViewController.h
+//  CameraViewController.h
 //  lpr
 //
 //  Created by baotim on 2018/10/26.
@@ -15,11 +15,17 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 #import <AVFoundation/AVFoundation.h>
+#import <AudioToolbox/AudioToolbox.h>
+#import <CoreMedia/CoreMedia.h>
 #endif
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface RootViewController : UIViewController
+typedef void(^ResultCallBack)(NSString *reuslt, UIImage *image);
+
+@interface CameraViewController : UIViewController
+
+@property(nonatomic, copy) ResultCallBack resultCB;
 
 @end
 

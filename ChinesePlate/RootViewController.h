@@ -1,14 +1,16 @@
 //
 //  RootViewController.h
-//  lpr
+//  plateRec
 //
-//  Created by baotim on 2018/10/26.
-//  Copyright © 2018 lprSample. All rights reserved.
+//  Created by zzx on 2024/01/05.
+//  Copyright © 2024 zcs110. All rights reserved.
 //
 
 #ifdef __cplusplus
 #import <opencv2/opencv.hpp>
 #import <opencv2/imgcodecs/ios.h>
+#include <opencv2/highgui/highgui.hpp>
+#include <ncnn/ncnn/net.h>
 #endif
 
 #ifdef __OBJC__
@@ -16,6 +18,7 @@
 #import <Foundation/Foundation.h>
 #import <AVFoundation/AVFoundation.h>
 #endif
+
 
 NS_ASSUME_NONNULL_BEGIN
 
